@@ -95,3 +95,7 @@ function viewRoles() {
     init()
 })
 }
+// need to make the function to call all of these
+function init() {
+    
+}
