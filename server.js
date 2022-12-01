@@ -77,3 +77,21 @@ function addRole () {
         })
     })
 }
+// view all employees
+function viewEmployees() {
+    db.query("SELECT * FROM employee", function (err, result) {
+    init()
+})
+}
+// view all departments
+function viewDepartments() {
+    db.query("SELECT * FROM department", function (err, result) {
+    init()
+})
+}
+// view all roles
+function viewRoles() {
+    db.query("SELECT * FROM role", function (err, result) {
+    init()
+})
+}
