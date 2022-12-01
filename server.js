@@ -1,6 +1,10 @@
 const mysql = require('mysql');
 const inquirer = reuqire('inquirer');
 const { response } = reuqire('express');
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
 // connection to the database
 const db = mysql.createConnection(
     {
