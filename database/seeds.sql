@@ -12,11 +12,12 @@ VALUES ( "Developers" ),
        ( "Marketing"),
        ( "Human Resources");
 
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("Noel", "Stafford", 1);
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("Mateo", "Wallace", 4);
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("Mark", "Elliot", 2);
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("Seth", "Wooten",2);
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("JW", "Dinsmore", 3);
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("Andrew", "Gibbs", 1);
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("Ross", "Mcvey", 4);
-INSERT INTO employee (firstName, lastName,role_id) VALUES ("Jordan", "Colubiale", 3)
+INSERT INTO employee (firstName, lastName,role_id) 
+VALUES ("Noel", "Stafford", 1),
+("Mateo", "Wallace", 4),
+("Mark", "Elliot", 2),
+ ("Seth", "Wooten",2),
+ ("JW", "Dinsmore", 3),
+ ("Andrew", "Gibbs", 1),
+ ("Ross", "Mcvey", 4),
+ ("Jordan", "Colubiale", 3);
